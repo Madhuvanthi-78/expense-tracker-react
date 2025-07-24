@@ -1,15 +1,18 @@
 # Expense Tracker (React)
 
-This is a React version of the [vanilla JS Expense Tracker](https://github.com/bradtraversy/vanillawebprojects/tree/master/expense-tracker). It uses functional components with hooks and the context API
+A simple and modern expense tracker built with **React** and **Context API**.  
+Features:
+- Add income & expenses
+- Categorize transactions
+- Persistent data using localStorage
+- Category-wise expense visualization (Chart.js)
 
-## Usage
-```
+### Tech Stack
+- React, Context API, useReducer
+- Chart.js
+- HTML, CSS, JavaScript
+
+### Run Locally
+```bash
 npm install
-
-# Run on http://localhost:3000
 npm start
-
-# Build for prod
-npm run build
-```
-
